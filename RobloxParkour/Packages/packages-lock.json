@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.mrpart.yandexsdkplugin": {
+      "version": "https://github.com/MrPart256/YandexSDKWebGLUnityPlugin.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a5495812a916128cfde3b34b0e8ebea8397712e6"
+    },
     "com.unity.collab-proxy": {
       "version": "2.0.1",
       "depth": 0,
