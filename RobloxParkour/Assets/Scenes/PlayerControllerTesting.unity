@@ -1075,7 +1075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1234610280
 Transform:
   m_ObjectHideFlags: 0
@@ -1202,6 +1202,8 @@ MonoBehaviour:
   maxDistance: 20
   zoomSpeed: 5
   blockingRadius: 0.5
+  sensitivityX: 20
+  sensitivityY: 20
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -2080,6 +2082,8 @@ MonoBehaviour:
   maxDistance: 20
   zoomSpeed: 5
   blockingRadius: 0.5
+  sensitivityX: 20
+  sensitivityY: 20
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -2096,9 +2100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.2
-  jumpHeight: 1
+  jumpHeight: 1.2
   turnSpeed: 300
-  gravityValue: -19.62
+  gravityValue: -30
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

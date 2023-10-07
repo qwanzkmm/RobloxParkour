@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ThirdPersonCamera : MonoBehaviour
 {
+    [Header("Camera Settings")]
     public float Y_ANGLE_MIN = 70.0f;
     public float Y_ANGLE_MAX = -50.0f;
 
@@ -18,11 +19,12 @@ public class ThirdPersonCamera : MonoBehaviour
 
     private float currentX = 0.0f;
     private float currentY = 0.0f;
-    private float sensitivityX = 20.0f;
-    private float sensitivityY = 20.0f;
-
 
     public LayerMask groundLayerMask;
+
+    [Header("Sensitivity Values")]
+    public float sensitivityX = 20.0f;
+    public float sensitivityY = 20.0f;
 
     private void Update()
     {
