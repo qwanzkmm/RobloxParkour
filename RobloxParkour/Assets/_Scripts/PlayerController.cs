@@ -31,10 +31,10 @@ public class PlayerController : MonoBehaviour
 
 	void Update()
 	{
-        var turn = Input.GetAxis("Horizontal");
+        var turn = Input.GetAxisRaw("Horizontal");
         transform.Rotate(0, turn * turnSpeed * Time.deltaTime, 0);
 
-        Vector3 move = transform.forward * (Input.GetAxis("Vertical") * speed);
+        Vector3 move = transform.forward * (Input.GetAxisRaw("Vertical") * speed);
         _controller.Move(move * (Time.deltaTime * speed));
 
         // --- JUMPING ---
